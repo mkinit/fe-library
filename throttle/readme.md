@@ -1,12 +1,13 @@
 ### 节流函数
 - 使用import导入
-- 使用：```
-document.addEventListener('scroll',throttle({
-	callback:()=>{
-		console.log(123)
-	}
-}))
-```
+- 使用：
+	```
+	document.addEventListener('scroll',throttle({
+		callback:()=>{
+			console.log(123)
+		}
+	}))
+	```
 
 ### 参数
 - @params {Function} callback：要执行的函数；
