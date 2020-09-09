@@ -4,7 +4,7 @@
 	```
 	document.addEventListener('scroll',throttle({
 		callback:()=>{
-			console.log(123)
+			console.log('滚动中……')
 		}
 	}))
 	```
