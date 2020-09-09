@@ -1,7 +1,7 @@
 ## 日期时间格式化工具
 
 ## 使用
-- 实例化一个时间对象：`let date = new TimeStamp('时间戳或时间格式的字符串')`
+- 实例化一个时间对象：`const date = new TimeStamp('时间戳或时间格式的字符串')`
 - 格式化：`date.format('YYYY年MM月DD日 hh:mm:ss week')`
 
 ## 格式化时间戳
